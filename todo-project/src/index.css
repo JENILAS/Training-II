@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(202, 212, 158);
+  margin: 0;
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#tooltip{
+  color:brown;
+}
+.todo{
+  background-color: beige;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  width: 600px;
+  
+}
+#body-of-todo{
+  background-color: rgb(192, 185, 158);
+}
+.form{
+  margin: auto;
+}
+.edit-delete{
+  float: right;
+ 
+}
+input:focus{
+  background-color: rgb(230, 226, 221);
+}
+button{
+  background-color: rgb(230, 217, 109);
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+h1{
+  color: rgb(240, 109, 20);
+  text-align: center;
+  border: 1px solid black;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
